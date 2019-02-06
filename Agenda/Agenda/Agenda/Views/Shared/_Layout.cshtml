@@ -1,0 +1,18 @@
+﻿@using System.Web.Optimization
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content")
+</head>
+<body>
+    @RenderBody()
+    @Scripts.Render("~/Scripts")
+</body>
+</html>
